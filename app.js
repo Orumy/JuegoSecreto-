@@ -30,7 +30,7 @@ function verificarIntento(){// Crea una funcion
         }
     else{
         if (numeroSecreto<numeroDeUsuario){
-            asignarTextoElemento('p', 'El numerp es menor ');
+            asignarTextoElemento('p', 'El numero secreto es menor ');
         }
         else{
             asignarTextoElemento('p', 'El numero secreto es mayor');
